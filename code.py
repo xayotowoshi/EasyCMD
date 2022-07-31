@@ -17,7 +17,6 @@ __|||||||||||__
 print(s)
 
 color = fg ('light_yellow')
-x = input()
 
 print(color + "EasyCMD.py") \
 
@@ -32,6 +31,8 @@ time.sleep(0.1)
 print(color + "(C) Open Explorer")
 time.sleep(0.1)
 print(color + "(D) Display Volume C: Serial Number ")
+time.sleep(0.1)
+print(color + "Type Exit to leave")
 time.sleep(0.1)
 color = fg('spring_green_3a')
 
@@ -52,8 +53,9 @@ if d1a == "C":
 if d1a == "D":
     os.system('cmd /k "title & Vol C:"') 
     input()
-    
-
+    input()
+if d1a == "Exit":
+    exit()
 
 
     
