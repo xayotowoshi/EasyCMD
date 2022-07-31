@@ -12,7 +12,7 @@
 
 
 # Requirements II Pip
-
+Install Python first
 Before Installing, Run on CMD
 > py -m pip install keyboard
 > py -m pip install colored
